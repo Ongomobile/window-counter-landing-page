@@ -171,9 +171,9 @@
       <div class="heading-line"></div>
       <h2 class="name-title services">get notified when new features are available</h2>
       <div class="form-wrapper w-form">
-        <form id="email-form" name="email-form" data-name="Email Form" class="form-subscribe"><input type="email" class="subscribe-field w-input"
-            maxlength="256" name="email-2" data-name="Email 2" placeholder="your@email.com" id="email-2" required=""><input
-            type="submit" value="Notify me!" data-wait="Please wait..." class="subscribe-button w-button"></form>
+        <form id="email-form" name="email-form" data-name="Email Form" action="/#" method="post" class="form-subscribe"><input
+            type="email" class="subscribe-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="your@email.com"
+            id="email-2" required=""><input type="submit" value="Notify me!" data-wait="Please wait..." class="subscribe-button w-button"></form>
         <div class="success-message w-form-done">
           <p class="success-paragraph">Hey, thanks for signing up you awesome person you! We'll be in touch as soon as
             the app launches!</p>
@@ -190,8 +190,7 @@
         <div class="heading-line"></div>
         <h2 class="name-title">WE'D love to get your feedback</h2>
         <div class="w-form">
-          <!-- <form id="email-form-2" name="email-form-2" data-name="Email Form 2" class="contact-form"> -->
-          <form id="email-form-2" name="email-form-2" method="post" action="contact.php" novalidate="true" class="contact-form">
+          <form id="email-form-2" name="email-form-2" action="/#" method="post" class="contact-form" netlify>
             <div class="w-row">
               <div class="column-contact w-col w-col-4"><input type="text" class="text-area w-input" maxlength="256"
                   name="name" data-name="Name" placeholder="Name" id="name-7" required=""></div>
