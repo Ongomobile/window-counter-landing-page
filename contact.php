@@ -1,7 +1,7 @@
 <?php
 
 // configure
-$from = 'ongomobile@gmail.com';
+$from = 'longbeachwindowwashing@gmail.com';
 $sendTo = 'ongomobile@gmail.com';
 $subject = 'New message from contact form';
 $fields = array('name' => 'Customer Name', 'surname' => 'Last name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
