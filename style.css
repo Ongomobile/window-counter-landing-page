@@ -833,6 +833,9 @@ p {
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
 }
+#bigger {
+  height: 400px;
+}
 .subscribe-field {
   margin-top: 15px;
   margin-bottom: 25px;
