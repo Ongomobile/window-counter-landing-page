@@ -825,17 +825,13 @@ p {
   padding-bottom: 10px;
 }
 .service-section {
-  background-image: url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeaa662eff658629e5672c_overlay-pattern.png"),
-    url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeb96139a28bc9b8b23c9a_architecture-eclectic-modern-beach-house-fantastic-example-of-mix-and-match-home-decorating-malibu-mansion-iron-man-coastal-design-houses-for-rent-real-estate-agents-small-living-rooms.jpg");
+  background-image: url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeb96139a28bc9b8b23c9a_architecture-eclectic-modern-beach-house-fantastic-example-of-mix-and-match-home-decorating-malibu-mansion-iron-man-coastal-design-houses-for-rent-real-estate-agents-small-living-rooms.jpg");
   background-position: 0% 0%, 100% 100%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
 }
-.bigger {
-  height: 400px;
-  background-color: red;
-}
+
 .subscribe-field {
   margin-top: 15px;
   margin-bottom: 25px;
