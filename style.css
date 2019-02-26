@@ -592,7 +592,6 @@ p {
   height: 100%;
   padding-top: 40px;
   padding-bottom: 450px;
-  background-color: #bfbfbf;
   background-image: -webkit-linear-gradient(270deg, hsla(0, 0%, 50%, 0.75), hsla(0, 0%, 50%, 0.75)),
     url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeb8d5c88bea6153452b5f_Ocean-Front-Home-Laguna-Beach_1.jpg");
   background-image: linear-gradient(180deg, hsla(0, 0%, 50%, 0.75), hsla(0, 0%, 50%, 0.75)),
