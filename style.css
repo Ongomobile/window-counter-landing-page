@@ -592,18 +592,14 @@ p {
   padding-top: 40px;
   padding-bottom: 450px;
   background-color: transparent;
-  background-image: -webkit-linear-gradient(
-      180deg,
-      hsla(0, 0%, 50.2%, 0.6),
-      hsla(0, 0%, 50.2%, 0.6)
-    ),
-    url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeb8d5c88bea6153452b5f_Ocean-Front-Home-Laguna-Beach_1.jpg");
-  background-image: url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeb8d5c88bea6153452b5f_Ocean-Front-Home-Laguna-Beach_1.jpg");
-  background-position: 0px 0px 50% 50%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 50.2%, 0.6)), to(hsla(0, 0%, 50.2%, 0.6))), url('../images/OceanFrontHome.jpg');
+  background-image: linear-gradient(180deg, hsla(0, 0%, 50.2%, 0.6), hsla(0, 0%, 50.2%, 0.6)), url('../images/OceanFrontHome.jpg');
+  background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, scroll;
-}
+  color: transparent;
+
 .logo {
   padding-right: 30px;
   padding-left: 30px;
