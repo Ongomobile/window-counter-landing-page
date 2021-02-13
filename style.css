@@ -601,7 +601,7 @@ p {
   background-image: url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeb8d5c88bea6153452b5f_Ocean-Front-Home-Laguna-Beach_1.jpg");
   background-position: 0px 0px 50% 50%;
   background-size: auto, cover;
-  background-repeat: repeat, repeat;
+  background-repeat: repeat, no-repeat;
   background-attachment: scroll, scroll;
 }
 .logo {
