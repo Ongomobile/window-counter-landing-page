@@ -1144,9 +1144,6 @@ html.w-mod-js *[data-ix="slide-in-from-left-on-scroll"] {
   }
 }
 @media (max-width: 767px) {
-  .download {
-    display: none;
-  }
   .title {
     font-size: 60px;
   }
