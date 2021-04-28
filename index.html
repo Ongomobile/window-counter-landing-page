@@ -85,129 +85,49 @@
   </head>
 
   <body data-gr-c-s-loaded="true">
-    <div
-      data-collapse="medium"
-      data-animation="default"
-      data-duration="400"
-      class="navigation-bar w-hidden-main w-nav"
-    >
-      <div class="w-container">
-        <a class="logo-brand w-nav-brand"
-          ><img
-            src="https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/6027061176e7101353c21f3f_defaultImg.png"
-            width="50"
-            alt=""
-        /></a>
-        <nav role="navigation" class="navigation-menu w-nav-menu">
-          <a
-            href="#home"
-            class="navigation-link w-nav-link w--current"
-            style="max-width: 940px"
-            >Home</a
-          ><a
-            href="#features"
-            class="navigation-link w-nav-link"
-            style="max-width: 940px"
-            >features</a
-          ><a
-            href="#why"
-            class="navigation-link w-nav-link"
-            style="max-width: 940px"
-            >why us</a
-          ><a
-            href="#contact"
-            class="navigation-link w-nav-link"
-            style="max-width: 940px"
-            >contact</a
-          >
-        </nav>
-        <!--       <div class="hamburger w-nav-button">
-        <div class="w-icon-nav-menu"></div>
-      </div> -->
-      </div>
-      <div class="w-nav-overlay" data-wf-ignore=""></div>
-    </div>
-    <div
-      data-collapse="medium"
-      data-animation="default"
-      data-duration="400"
-      data-ix="display-none-navigation-scroll-on-load"
-      class="navigation-scroll w-hidden-medium w-hidden-small w-hidden-tiny w-nav"
-      style="
-        display: none;
-        transform-style: preserve-3d;
-        transition: transform 500ms ease 0s;
-        transform: translateX(0px) translateY(-80px) translateZ(0px);
-      "
-    >
-      <div class="w-container">
-        <a href="#home" class="logo-brand w-nav-brand w--current"
-          ><img
-            src="https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/6027061176e7101353c21f3f_defaultImg.png"
-            width="75"
-            alt=""
-        /></a>
-        <nav role="navigation" class="w-nav-menu">
-          <a
-            href="#home"
-            class="navigation-link w-nav-link w--current"
-            style="max-width: 940px"
-            >Home</a
-          ><a
-            href="#features"
-            class="navigation-link w-nav-link"
-            style="max-width: 940px"
-            >features</a
-          ><a
-            href="#why"
-            class="navigation-link w-nav-link"
-            style="max-width: 940px"
-            >why us</a
-          ><a
-            href="#contact"
-            class="navigation-link w-nav-link"
-            style="max-width: 940px"
-            >contact</a
-          >
-        </nav>
-        <div class="w-nav-button">
-          <div class="w-icon-nav-menu"></div>
-        </div>
-      </div>
-      <div class="w-nav-overlay" data-wf-ignore=""></div>
-    </div>
     <div id="home" class="banner">
-      <div data-ix="slide-in-from-top-on-load" class="logo w-clearfix">
-        <a
-          href="https://play.google.com/store/apps/details?id=com.ongomobile.WcPro"
-          target="_blank"
-          class="download w-inline-block"
+      <div data-ix="slide-in-from-top-on-load" class="logo">
+        <a href="#" class="logo-wrapper"
           ><img
-            src="images/playBtnImg.png"
+            src="images/defaultImg.png"
             loading="lazy"
-            sizes="(max-width: 479px) 100vw, 308px"
-            srcset="
-              images/playBtnImg-p-500.png 500w,
-              images/playBtnImg.png       750w
-            "
             alt=""
-            class="appstorebtn"
-        /></a>
-        <a
-          href="https://apps.apple.com/us/app/window-counter-pro/id1551515381"
-          target="_blank"
-          class="download w-inline-block"
-          ><img
-            src="images/appStoreBtnImg.png"
-            loading="lazy"
-            sizes="(max-width: 479px) 100vw, 308px"
-            srcset="
-              images/appStoreBtnImg-p-500.png 500w,
-              images/appStoreBtnImg.png       750w
-            "
-            alt=""
-            class="appstorebtn"
-        /></a>
+            class="logo-img"
+          />
+          <h1 class="logo-text">Window Counter Pro</h1>
+        </a>
+        <div class="app-btn-wrapper">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.ongomobile.WcPro"
+            target="_blank"
+            class="download mobile-store-btn w-inline-block"
+            ><img
+              src="images/playBtnImg.png"
+              loading="lazy"
+              sizes="(max-width: 767px) 100vw, (max-width: 991px) 308px, 24vw"
+              srcset="
+                images/playBtnImg-p-500.png 500w,
+                images/playBtnImg.png       750w
+              "
+              alt=""
+              class="appstorebtn"
+          /></a>
+          <a
+            href="https://apps.apple.com/us/app/window-counter-pro/id1551515381"
+            target="_blank"
+            class="download mobile-store-btn w-inline-block"
+            ><img
+              src="images/appStoreBtnImg.png"
+              loading="lazy"
+              sizes="(max-width: 767px) 100vw, (max-width: 991px) 308px, 24vw"
+              srcset="
+                images/appStoreBtnImg-p-500.png 500w,
+                images/appStoreBtnImg.png       750w
+              "
+              alt=""
+              class="appstorebtn"
+          /></a>
+        </div>
       </div>
       <div
         data-ix="slide-in-scroll-navigation-on-scroll"
