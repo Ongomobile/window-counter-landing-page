@@ -894,7 +894,7 @@ p {
 .service-section {
   background-image: url("../images/beachPatio1.jpg");
   background-position: 0% 0%, 50% 50%;
-  background-size: auto, cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll, fixed;
   height: 70vh;
