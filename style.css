@@ -1317,8 +1317,9 @@ html.w-mod-js *[data-ix="slide-in-from-left-on-scroll"] {
     text-align: center;
   }
   .service-section {
-    background-position: 0% 0% 100% 100%;
+    background-position: 50% 50%;
     background-size: auto, auto;
+    background-attachment: scroll;
   }
 }
 
