@@ -2,6 +2,13 @@
 body {
   margin: 0;
 }
+
+/* This is for phone number styling in safari iOS */
+a[href^="tel"] {
+  text-decoration: inherit;
+  color: inherit;
+}
+
 footer,
 nav,
 section {
