@@ -1318,7 +1318,7 @@ html.w-mod-js *[data-ix="slide-in-from-left-on-scroll"] {
   }
   .service-section {
     background-position: 50% 50%;
-    background-size: contain;
+    height: 125vh;
   }
 }
 
