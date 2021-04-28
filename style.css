@@ -892,7 +892,7 @@ p {
   padding-bottom: 10px;
 }
 .service-section {
-  background-image: url("https://uploads-ssl.webflow.com/5bbeaa652eff65d200e566fe/5bbeb96139a28bc9b8b23c9a_architecture-eclectic-modern-beach-house-fantastic-example-of-mix-and-match-home-decorating-malibu-mansion-iron-man-coastal-design-houses-for-rent-real-estate-agents-small-living-rooms.jpg");
+  background-image: url("../images/beachPatio1.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1318,7 +1318,6 @@ html.w-mod-js *[data-ix="slide-in-from-left-on-scroll"] {
   }
   .service-section {
     background-position: 0% 50%;
-    height: 125vh;
   }
 }
 
