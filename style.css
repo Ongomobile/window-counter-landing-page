@@ -1316,6 +1316,9 @@ html.w-mod-js *[data-ix="slide-in-from-left-on-scroll"] {
     padding-left: 15px;
     text-align: center;
   }
+  .service-section {
+    background-position: 100% 100%;
+  }
 }
 
 @media (max-width: 320px) {
