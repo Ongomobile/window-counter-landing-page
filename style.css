@@ -893,9 +893,9 @@ p {
 }
 .service-section {
   background-image: url("../images/beachPatio1.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-position: 0% 0%, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
   height: 70vh;
 }
@@ -1317,7 +1317,8 @@ html.w-mod-js *[data-ix="slide-in-from-left-on-scroll"] {
     text-align: center;
   }
   .service-section {
-    background-position: 0% 50%;
+    background-position: 0% 0% 100% 100%;
+    background-size: auto, auto;
   }
 }
 
