@@ -112,7 +112,9 @@ body {
   margin-right: 10px;
   border-radius: 8px;
 }
-
+.form-wrapper {
+  padding: 0 15% 0 15%;
+}
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -407,6 +409,9 @@ textarea.w-input {
     left: auto;
     right: auto;
   }
+  .form-wrapper {
+    padding: 0 5% 0 5%;
+  }
 }
 @media screen and (max-width: 479px) {
   .w-container {
@@ -426,6 +431,9 @@ textarea.w-input {
   }
   .w-col {
     width: 100%;
+  }
+  .name-title {
+    font-size: 18px !important;
   }
 }
 .w-slider {
