@@ -103,6 +103,7 @@ body {
   align-items: center;
   background-color: transparent;
   text-decoration: none;
+  background-color: rgba(35, 34, 34, 0.02);
 }
 
 .logo-img {
@@ -620,7 +621,7 @@ textarea.w-input {
 }
 body {
   font-family: Raleway, sans-serif;
-  color: #818181;
+  color: #1f1c1c;
   font-size: 14px;
   line-height: 26px;
 }
@@ -695,6 +696,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  background-color: rgba(35, 34, 34, 0.02);
 }
 .text-banner {
   margin-left: 0px;
@@ -1049,7 +1051,7 @@ blockquote {
   background-color: transparent;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  color: #fc6347;
+  color: #030303;
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 2px;
@@ -1057,7 +1059,7 @@ blockquote {
 }
 .contact-button:hover {
   background-color: #fc6347;
-  color: #fff;
+  color: #030303;
 }
 .footer {
   background-color: #282f36;
