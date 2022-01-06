@@ -90,6 +90,9 @@ body {
   height: 60px;
   width: 205px;
 }
+.headline{
+  line-height: 30px;
+}
 .logo-wrapper {
   margin-top: 0;
   display: -webkit-box;
@@ -1082,7 +1085,7 @@ blockquote {
 .bold-text {
   font-family: Raleway, sans-serif;
   font-size: 36px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .columns {
   display: -webkit-box;
@@ -1285,7 +1288,7 @@ html.w-mod-js *[data-ix="slide-in-from-left-on-scroll"] {
   }
   .text-banner {
     padding-left: 14px;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     font-weight: 700;
     text-align: left;
